@@ -16,3 +16,9 @@ display.precision = 4
 display.float_format = ".3f"
 display.max_columns = 100
 display.width = 1000
+
+[tool.pyrefly]
+project-includes = [
+    "**/*.py*",
+    "**/*.ipynb",
+]
